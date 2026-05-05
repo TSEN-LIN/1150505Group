@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Macaron Palette Custom Colors */
+  --color-macaron-mint: #e0f9f1;
+  --color-macaron-mint-deep: #74d9b6;
+  --color-macaron-pink: #fce4ec;
+  --color-macaron-pink-deep: #f06292;
+  --color-macaron-yellow: #fff9c4;
+  --color-macaron-yellow-deep: #fbc02d;
+  --color-macaron-lavender: #f3e5f5;
+  --color-macaron-lavender-deep: #ba68c8;
+  --color-macaron-blue: #e3f2fd;
+  --color-macaron-blue-deep: #64b5f6;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-[#fafafa] text-slate-800 antialiased;
+  }
+}
